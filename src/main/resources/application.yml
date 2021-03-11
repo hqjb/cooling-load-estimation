@@ -7,3 +7,6 @@ spring:
       hibernate:
         jdbc:
           batch_size: 50
+  batch:
+    job:
+      names: eqLoadReadJob # Only automatically run these jobs (comma separated values)
